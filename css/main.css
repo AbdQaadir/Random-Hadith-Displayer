@@ -1,0 +1,74 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffd0a8;
+    color: #333;
+    font-family: 'calibri', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.container {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    border-radius: 5px;
+    background-color: #fff;
+    flex: 0 0 80%;
+}
+.hidden {
+    display: none;
+}
+#quoteBtn {
+    border: none;
+    color: rgb(243, 240, 240);
+    background: #d89156;
+    font-size: 1.3rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 7px;
+    cursor: pointer;
+    outline: none;
+    transition: color .25s;
+}
+.quoteBtn2 {
+    border: none;
+    color: #fff;
+    background: #d89156;
+    font-size: 1.3rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 7px;
+    cursor: unset;
+    outline: none;
+    transition: color .25s;
+}
+#quoteBtn:hover {
+    color: #ffffff;
+}
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #fcdbbf;
+    margin: 1.5rem;
+    padding: 0.5rem;
+}
+#quoteAuthor {
+    color: #ff9100;
+}
+#heading {
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.fa-heart{
+    color: red !important;
+    font-size: 1rem !important;
+}
+.social-icon{
+    color: grey;
+    font-size: 2rem;
+    padding: 0.25rem 0.5rem;
+    transition: all 0.3s;
+}
+.social-icon:hover{
+    color: rgb(109, 107, 107);
+}
